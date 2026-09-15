@@ -474,6 +474,7 @@ Quotas reset at midnight Pacific Time. Do not modify provider code to work aroun
 - **2026-09-15** — Implemented Patient Medical History Longitudinal Profile (v1.0): `PatientLongitudinalProfile` + `PatientFact` SQLAlchemy models, Alembic migration `b7e91a2c3d4e`, 21-domain Pydantic schema in `longitudinal_profile.py`, REST API in `longitudinal.py`, test suite `test_longitudinal_profile.py`.
 - **2026-09-15** — Added Real Clinical NLU provider (Gemini) and factory with `NLU_MODE`.
 - **2026-09-15** — Implemented Conversation → Patient Facts pipeline and deterministic Fact Reconciliation Engine.
-- **Earlier sessions** — Initial project setup, Supabase configuration, FastAPI CORS middleware, patient registration verified against Supabase PostgreSQL, all three servers running (FastAPI :8000, Kiosk :3000, Dashboard :3001).
+- **Earlier sessions** — Initial project setup, Supabase configuration, FastAPI CORS middleware, patient registration verified against Supabase PostgreSQL, all three servers running (FastAPI :8000, Kiosk :3000, Dashboard :3001)
+- 
 
 
